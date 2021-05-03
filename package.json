@@ -1,0 +1,32 @@
+{
+  "name": "disscord-bot",
+  "version": "1.0.0",
+  "description": "Bot with node and disscord",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DarkUnknowKnigth/DisscordBot.git"
+  },
+  "keywords": [
+    "Disscord",
+    "Bot",
+    "Nodejs"
+  ],
+  "author": "Jose Daniel Morales Ocampo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DarkUnknowKnigth/DisscordBot/issues"
+  },
+  "homepage": "https://github.com/DarkUnknowKnigth/DisscordBot#readme",
+  "devDependencies": {
+    "tslint": "^6.1.3",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "discord.js": "^12.5.3"
+  }
+}
